@@ -10,7 +10,7 @@ import { CartService } from '../cart.service';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-
+  // Define the 'product' property 
   product;
 
   //define the method addToCart() from the cartService to add a product to the cart
